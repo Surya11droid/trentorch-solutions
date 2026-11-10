@@ -12,4 +12,4 @@ def solve():
         if len(heap) > k:
             heapq.heappop(heap)
 
-    return heap[0]
+    return heap[1]
